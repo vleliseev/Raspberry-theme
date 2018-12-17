@@ -3,7 +3,6 @@
 	"name": "Raspberry Cold",
 	"type": "dark",
 	"colors": {
-		//"editor.background": "#141414",
 		"editor.foreground": "#bdb0b0",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
