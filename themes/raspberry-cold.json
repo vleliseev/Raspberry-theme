@@ -1,8 +1,9 @@
 {
+	"$schema": "vscode://schemas/color-theme",
 	"name": "Raspberry Cold",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#222222",
+		//"editor.background": "#141414",
 		"editor.foreground": "#bdb0b0",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -57,7 +58,14 @@
 				"constant.regexp",
 				"constant.other",
 				"constant.character.escape",
-				"string.regexp"
+				"string.regexp",
+				"punctuation.definition.group.regexp",
+				"punctuation.definition.group.assertion.regexp",
+				"punctuation.definition.character-class.regexp",
+				"punctuation.character.set.begin.regexp",
+				"punctuation.character.set.end.regexp",
+				"keyword.operator.negation.regexp",
+				"support.other.parenthesis.regexp"
 			],
 			"settings": {
 				"foreground": "#57a5d3"
@@ -65,12 +73,16 @@
 		},
 
 		{
-			"name": "Variables, objects",
+			"name": "Variables, objects, object keys",
 			"scope": [
-				"variable"
+				"variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable",
+				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#a7d6d8"
+				"foreground": "#85b8b5" //"#368038"
 			}
 		},
 
@@ -84,8 +96,88 @@
 				"support.function"
 			],
 			"settings": {
+				"foreground": "#66a2d3"
+			}
+		},
+
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.control",
+				"keyword.operator",
+				"keyword.other",
+				"storage.type.function"
+			],
+			"settings": {
+				"foreground": "#bb4872",
+			}
+		},
+
+		{
+			"name": "Modifiers",
+			"scope": "storage.modifier",
+			"settings": {
+				"foreground": "#bb4872",
+				"fontStyle": "italic"
+			}
+		},
+
+		{
+			"name": "Class types",
+			"scope": [
+				"support.class",
+				"support.type",
+				"entity.name.type",
+				"entity.name.class",
+				"storage.type.numeric.go",
+				"storage.type.byte.go",
+				"storage.type.boolean.go",
+				"storage.type.string.go",
+				"storage.type.uintptr.go",
+				"storage.type.error.go",
+				"storage.type.rune.go",
+				"storage.type.cs",
+				"storage.type.generic.cs",
+				"storage.type.modifier.cs",
+				"storage.type.variable.cs",
+				"storage.type.annotation.java",
+				"storage.type.generic.java",
+				"storage.type.java",
+				"storage.type.object.array.java",
+				"storage.type.primitive.array.java",
+				"storage.type.primitive.java",
+				"storage.type.token.java",
+				"storage.type.groovy",
+				"storage.type.annotation.groovy",
+				"storage.type.parameters.groovy",
+				"storage.type.generic.groovy",
+				"storage.type.object.array.groovy",
+				"storage.type.primitive.array.groovy",
+				"storage.type.primitive.groovy"
+			],
+			"settings": {
+				"foreground": "#d37c36",
+			}
+		},
+
+		{
+			"name": "HTML tags",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
 				"foreground": "#bb4872"
 			}
-		}
+		},
+
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#72a7da"
+			}
+		},
 	]
 }
