@@ -4,7 +4,7 @@
 	"type": "dark",
 	"colors": {
 		"editor.foreground": "#bdb0b0",
-		"activityBarBadge.background": "#007acc",
+		"activityBarBadge.background": "#9e2b61",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	
@@ -81,31 +81,38 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#85b8b5" //"#368038"
+				"foreground": "#cecece"//"#4c7458"
 			}
 		},
 
 		{
 			"name": "Functions, methods",
 			"scope": [
-				"entity.name.function",
 				"entity.name.method",
 				"meta.function-call",
 				"variable.function",
-				"support.function"
+				"support.function",
+				"entity.name.function",
+                "meta.method-call.java meta.method",
+                "meta.method.groovy",
+                "support.function.any-method.lua",
+                "keyword.operator.function.infix"
 			],
 			"settings": {
-				"foreground": "#66a2d3"
+				"foreground": "#377e43" //"#8d682c"
 			}
 		},
 
 		{
-			"name": "Keywords",
+			"name": "Keywords, built-in types",
 			"scope": [
 				"keyword.control",
 				"keyword.operator",
 				"keyword.other",
-				"storage.type.function"
+				"storage.type.function",
+				"storage.type.js",
+				"keyword.primitive-datatypes.swift",
+				"keyword.type.cs",
 			],
 			"settings": {
 				"foreground": "#bb4872",
@@ -114,7 +121,10 @@
 
 		{
 			"name": "Modifiers",
-			"scope": "storage.modifier",
+			"scope": [
+				"storage.modifier",
+				"storage.modifier.js",
+			],
 			"settings": {
 				"foreground": "#bb4872",
 				"fontStyle": "italic"
@@ -122,12 +132,20 @@
 		},
 
 		{
+			"name": "Support type",
+			"scope": "support.type",
+			"settings": {
+				"foreground": "#bb4872"
+			}
+		},
+
+		{
 			"name": "Class types",
 			"scope": [
 				"support.class",
-				"support.type",
 				"entity.name.type",
 				"entity.name.class",
+				"entity.name.class.forward-decl",
 				"storage.type.numeric.go",
 				"storage.type.byte.go",
 				"storage.type.boolean.go",
@@ -152,10 +170,24 @@
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy"
+				"storage.type.primitive.groovy",
+                "meta.protocol-list.objc",
+                "meta.return-type.objc",
+                "source.go storage.type",
+                "source.groovy storage.type",
+                "source.java storage.type",
+                "source.powershell entity.other.attribute-name",
+                "storage.class.std.rust",
+                "storage.type.attribute.swift",
+                "storage.type.c",
+                "storage.type.core.rust",
+                "storage.type.objc",
+                "storage.type.php",
+                "storage.type.haskell",
+                "storage.type.ocaml"
 			],
 			"settings": {
-				"foreground": "#d37c36",
+				"foreground": "#72a7da",
 			}
 		},
 
@@ -178,5 +210,30 @@
 				"foreground": "#72a7da"
 			}
 		},
+
+		{
+            "name": "Brackets, braces, parens, etc.",
+            "scope": [
+                "keyword.operator.other.powershell",
+                "keyword.other.statement-separator.powershell",
+                "meta.brace.round",
+                "meta.function-call punctuation",
+                "punctuation.definition.arguments.begin",
+                "punctuation.definition.arguments.end",
+                "punctuation.definition.entity.begin",
+                "punctuation.definition.entity.end",
+                "punctuation.definition.tag.cs",
+                "punctuation.definition.type.begin",
+                "punctuation.definition.type.end",
+                "punctuation.section.scope.begin",
+                "punctuation.section.scope.end",
+                "storage.type.generic.java",
+                "string.template meta.brace",
+				"string.template punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#bbb8b8"
+            }
+        },
 	]
 }
