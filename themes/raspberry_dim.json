@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Raspberry Cold",
+	"name": "Raspberry Dim",
 	"type": "dark",
 	"colors": {
 		"editor.foreground": "#bdb0b0",
@@ -99,7 +99,7 @@
                 "keyword.operator.function.infix"
 			],
 			"settings": {
-				"foreground": "#377e43" //"#8d682c"
+				"foreground": "#72a7da"//"#377e43" 
 			}
 		},
 
@@ -187,7 +187,7 @@
                 "storage.type.ocaml"
 			],
 			"settings": {
-				"foreground": "#72a7da",
+				"foreground": "#c27746"//"#72a7da",
 			}
 		},
 

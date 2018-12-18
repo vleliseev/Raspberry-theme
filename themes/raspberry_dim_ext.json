@@ -1,0 +1,21 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+	"name": "Raspberry Dim Extended",
+    "type": "dark",
+    "include": "./raspberry_dim.json",
+    "tokenColors":[
+        {
+			"name": "Variables, objects, object keys",
+			"scope": [
+				"variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable",
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#77ac9f"//"#4c7458"
+			}
+		},
+    ]
+}

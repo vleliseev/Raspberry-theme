@@ -12,9 +12,15 @@
     "contributes": {
         "themes": [
             {
-                "label": "Raspberry Cold",
+                "label": "Raspberry Dim",
                 "uiTheme": "vs-dark",
-                "path": "./themes/raspberry-cold.json"
+                "path": "./themes/raspberry_dim.json"
+            },
+
+            {
+                "label": "Raspberry Dim Extended",
+                "uiTheme": "vs-dark",
+                "path": "./themes/raspberry_dim_ext.json"
             }
         ]
     }
