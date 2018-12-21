@@ -2,7 +2,25 @@
     "$schema": "vscode://schemas/color-theme",
 	"name": "Raspberry Dim Extended",
     "type": "dark",
-    "include": "./raspberry_dim.json",
+	"include": "./raspberry_dim.json",
+	
+	"colors": {
+		"editor.foreground": "#bdb0b0",
+		"editor.selectionBackground": "#333f42",
+		"activityBar.background": "#2c1921",
+		"statusBar.background": "#68217A",
+		"titleBar.activeBackground": "#20151a",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"focusBorder": "#9e2b61",
+		"dropdown.listBackground": "#30382f",
+		"badge.foreground":"#dadada",
+		"badge.background": "#9e2b61",
+		"activityBarBadge.background": "#9e2b61",
+		"menu.selectionBackground": "#5b756d",
+		"menu.background": "#2c1b23",
+		
+	},
+
     "tokenColors":[
         {
 			"name": "Variables, objects, object keys",

@@ -4,16 +4,10 @@
 	"type": "dark",
 	"colors": {
 		"editor.foreground": "#bdb0b0",
-		"activityBarBadge.background": "#9e2b61",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"statusBar.background": "#68217A"
 	},
 	
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#c3d1d1"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": [
