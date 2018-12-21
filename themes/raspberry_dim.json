@@ -112,7 +112,7 @@
 				"storage.type.function",
 				"storage.type.js",
 				"keyword.primitive-datatypes.swift",
-				"keyword.type.cs",
+				"keyword.type.cs"
 			],
 			"settings": {
 				"foreground": "#bb4872",
@@ -192,6 +192,15 @@
 		},
 
 		{
+			"name": "CSS keywords",
+			"scope": "punctuation.definition.keyword",
+			"settings": {
+				"foreground": "#739e4f",
+				"fontStyle": "italic"
+			}
+		},
+
+		{
 			"name": "HTML tags",
 			"scope": [
 				"entity.name.tag"
@@ -229,11 +238,20 @@
                 "punctuation.section.scope.end",
                 "storage.type.generic.java",
                 "string.template meta.brace",
-				"string.template punctuation.accessor"
+				"string.template punctuation.accessor",
+				"meta.selector"
             ],
             "settings": {
                 "foreground": "#bbb8b8"
             }
-        },
+		},
+		
+		{
+			"name": "Accessors",
+			"scope": "punctuation.accessor",
+			"settings": {
+				"foreground": "#bb4872"
+			}
+		}
 	]
 }
