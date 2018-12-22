@@ -6,6 +6,13 @@ Dark syntax highlight theme for [Visual Studio Code](http://code.visualstudio.co
 
 ## Install
 
+![Install link](https://marketplace.visualstudio.com/items?itemName=Shmel3.raspberrytheme)
+
+
+## Description
+
+Raspberry is dim syntax highlight theme for standard vs-dark colors.
+
 
 
 ## License

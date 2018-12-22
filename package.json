@@ -9,6 +9,7 @@
         "type": "git",
         "url": "https://github.com/shmel3/Raspberry-theme"
     },
+    "icon": "./img/icon.png",
     "engines": {
         "vscode": "^1.30.0"
     },
