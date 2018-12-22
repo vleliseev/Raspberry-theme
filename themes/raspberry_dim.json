@@ -75,7 +75,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#cecece"//"#4c7458"
+				"foreground": "#cecece"
 			}
 		},
 
@@ -93,7 +93,7 @@
                 "keyword.operator.function.infix"
 			],
 			"settings": {
-				"foreground": "#72a7da"//"#377e43" 
+				"foreground": "#72a7da"
 			}
 		},
 
@@ -181,7 +181,7 @@
                 "storage.type.ocaml"
 			],
 			"settings": {
-				"foreground": "#c27746"//"#72a7da",
+				"foreground": "#c27746"
 			}
 		},
 
