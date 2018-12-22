@@ -2,7 +2,7 @@
 
 Dark syntax highlight theme for [Visual Studio Code](http://code.visualstudio.com).
 
-![Screenshot](tree/master/img/html_example.png?raw=true)
+![Screenshot](/img/html_example.png?raw=true)
 
 ## Install
 
