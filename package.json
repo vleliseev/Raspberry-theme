@@ -1,8 +1,14 @@
 {
     "name": "raspberrytheme",
-    "displayName": "Raspberry Color Theme",
-    "description": "Raspberry cold/warm syntax highlight theme.",
+    "displayName": "Raspberry Theme",
+    "description": "Minimalistic syntax highlight theme.",
     "version": "0.0.1",
+    "publisher": "Shmel3",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shmel3/Raspberry-theme"
+    },
     "engines": {
         "vscode": "^1.30.0"
     },
