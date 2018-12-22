@@ -2,7 +2,7 @@
 
 Dark syntax highlight theme for [Visual Studio Code](http://code.visualstudio.com).
 
-![Screenshot](https://github.com/shmel3/Raspberry-theme/img/html_example.png)
+![Screenshot](https://github.com/shmel3/Raspberry-theme/blob/master/img/html_example.png)
 
 ## Install
 
