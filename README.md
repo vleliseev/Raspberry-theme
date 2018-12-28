@@ -6,7 +6,7 @@ Dark syntax highlight theme for [Visual Studio Code](http://code.visualstudio.co
 
 ## Install
 
-![Install link](https://marketplace.visualstudio.com/items?itemName=Shmel3.raspberrytheme)
+[Install link](https://marketplace.visualstudio.com/items?itemName=Shmel3.raspberrytheme)
 
 
 ## Description
